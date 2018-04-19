@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "root",
+      "path": ".."
+		},
+		{
+      "name": "@textcomplete/core",
+			"path": "../packages/textcomplete-core"
+		},
+		{
+      "name": "@textcomplete/textarea",
+			"path": "../packages/textcomplete-textarea"
+		},
+		{
+      "name": "textcomplete",
+			"path": "../packages/textcomplete"
+    },
+    {
+      "name": "jquery-textcomplete",
+      "path": "../packages/jquery-textcomplete"
+    }
+	],
+	"settings": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@textcomplete/core",
+  "version": "0.0.0",
+  "description": "Core package of textcomplate family",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "Yuku Takahashi <taka84u9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --parser typescript --write 'src/*.ts'"
+  },
+  "dependencies": {
+    "eventemitter3": "^3.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1",
+    "typescript": "^3.0.3"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false
+  }
+}

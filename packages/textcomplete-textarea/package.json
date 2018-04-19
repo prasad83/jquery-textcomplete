@@ -1,0 +1,36 @@
+{
+  "name": "@textcomplete/textarea",
+  "version": "0.0.0",
+  "description": "Textcomplete editor for textarea elements",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "textcomplete",
+    "textcomplete-editor"
+  ],
+  "author": "Yuku Takahashi <taka84u9@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --parser typescript --write 'src/*.ts'"
+  },
+  "dependencies": {
+    "@textcomplete/core": "file:../textcomplete-core",
+    "@types/node": "^9.6.6",
+    "@types/textarea-caret": "^3.0.0",
+    "textarea-caret": "^3.1.0",
+    "textcomplete-core": "file:../textcomplete-core",
+    "undate": "^0.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1",
+    "typescript": "^3.0.3"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false
+  }
+}
