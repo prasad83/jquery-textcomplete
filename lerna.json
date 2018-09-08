@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClient": "yarn"
+    },
+    "publish": {
+      "ignoreChanges": [
+        "*.md"
+      ]
+    },
+    "run": {
+      "npmClient": "yarn"
+    }
+  },
+  "version": "independent"
+}
