@@ -2,5 +2,7 @@ bower_components
 lerna-debug.log
 node_modules
 package-lock.json
+packages/*/dist
+packages/*/lib
+yarn-error.log
 yarn.lock
-dist

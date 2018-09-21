@@ -1,6 +1,15 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build --no-bail",
+    "clean:lib": "lerna exec -- rm -fr ./lib",
+    "clean:node_modules": "lerna clean",
+    "clean": "yarn run clean:node_modules && yarn run clean:lib",
+    "dev": "lerna run dev --parallel --no-bail --stream",
+    "format": "lerna run format --no-bail"
+  },
   "devDependencies": {
     "lerna": "^3.3.0"
   }

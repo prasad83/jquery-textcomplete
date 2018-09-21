@@ -1,1 +1,7 @@
-`jquery-textcomplete` is no longer maintained. Please use [yuku-t/textcomplete](https://github.com/yuku-t/textcomplete) instead.
+# textcomplete
+
+This repository consists of some sub npm packages
+
+- packages/textcomplete: core implementation
+- packages/jquery-textcomplete: textcomplete plugin for jQuery
+- packages/@textarea: editor for `<textarea>`
